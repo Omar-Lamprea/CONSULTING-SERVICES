@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+
+
+*{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif !important;
+  // margin-bottom: 0 !important;
+  box-sizing: border-box
+}
+h1,h2,h3,h4,h5, p{
+  margin-bottom: 0 !important;
+}
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+.p-title{
+  font-weight: bold;
+  color: #4d4d4d;
+  font-size: 1.1rem;
+}
+
+.nav-header ul{
+  display: flex;
+  margin-right: 4rem;
+  margin-bottom: 0;
+}
+.nav-header li{
+  margin: 0 1rem;
+  list-style: none;
+}
+.btn-language select{
+  border: none;
+  list-style: none;
+  margin: 0 1rem;
+  margin-top: .2rem;
+}
+.btn-contact-us button{
+  background-color: #15E065;
+  padding: .5rem 1rem;
+  border: none;
+  border-radius: 30px;
+}
+.btn-outline button{
+  border: 1px solid #15E065;
+  border-radius: 30px;
+  color:#15E065
+}
+
+.container-info-slider h2{
+  font-size: 2.5rem;
+  font-weight: revert;
+}
+.slick-slide img{
+  width: 80%;
+}
+
+.slider-account{
+  width: 150px;
+  border: 2px solid #eee;
+}
+.navSlider .slider-account{
+  margin: 0 .5rem;
+}
+.active{
+  border: 2px solid #15E065;
+}
+.about-us-title {
+  width: fit-content;
+  display: flex;
+  align-self: center;
+  border-bottom: 2px solid #15E065;
+  padding-bottom: .5rem;
+}
+
+.services-info{
+  padding: 0 2rem;
+  padding-left: 12px;
+}
+.services-cards{
+  background-color: #eee;
+}
+.cards img{
+  height: 60px;
+  margin-bottom: 1rem;
+}
+.container-card{
+  text-align: center;
+  padding: 1rem;
+  margin: 0px 1rem;
+  width: 200px;
+}
+.card-active{
+  background-color: #fff;
+  box-shadow: 0px 5px 6px 2px #c6c6c6;
+}
+.span-card{
+  color: #15E065;
+}
+
+footer{
+  background-color: #272F42;
+  color: #fff;
+}
