@@ -33,6 +33,7 @@ h1,h2,h3,h4,h5, p{
   list-style: none;
   margin: 0 1rem;
   margin-top: .2rem;
+  background-color: transparent;
 }
 .btn-contact-us button{
   background-color: #15E065;
@@ -197,6 +198,7 @@ form input::placeholder{
 }
 form textarea{
   background-color: #9395a0;
+  border: none;
 }
 
 footer{
