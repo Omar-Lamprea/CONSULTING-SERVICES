@@ -1,26 +1,46 @@
 <footer>
-  <div class="row">
+  <div class="container row m-auto p-0 py-5">
     <div class="col-6">
-      <h3>WE'D LOVE TO HAVE YOU JOIN US!</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur 
-        adipisicing elit. Similique est quis repellat 
-        accusamus sunt quae cupiditate omnis expedita, 
-        quibusdam, eius nostrum obcaecati maxime atque 
-        molestias quasi nisi beatae ipsa in debitis delectus 
-        aspernatur dignissimos. Eaque, sapiente mollitia! 
-        Est eius temporibus dicta veniam? Ex omnis inventore magni 
-        ratione maiores iure laborum!</p>
-        <div class="social">
-          <div class="icon">tel</div>
-          <div class="icon">twitter</div>
-          <div class="icon">In</div>
+      <div class="footer-info">
+        <h6>WE'D LOVE TO HAVE YOU JOIN US!</h6>
+        <p>Lorem ipsum dolor sit amet, consectetur 
+          adipisicing elit. Similique est quis repellat 
+          accusamus sunt quae cupiditate omnis expedita, 
+          quibusdam, eius nostrum.</p>
+        <p class="social-title">SOCIAL MEDIA</p>
+        <div class="social d-flex">
+          <div class="icon">
+            <img src="../img/telegram.svg" alt="">
+          </div>
+          <div class="icon">
+            <img src="../img/twitter.svg" alt="">
+          </div>
+          <div class="icon">
+            <img src="../img/linkedin.svg" alt="">
+          </div>
         </div>
+      </div>
     </div>
     <div class="col-6">
-      col 2
+      <div class="footer-contact-us d-flex justify-content-center flex-column">
+        <h6>CONTACT US</h6>
+        <form action="" class="d-flex flex-column justify-content-center">
+          <input type="text" name="name" id="name" placeholder="NAME">
+          <input type="email" name="email" id="email" placeholder="EMAIL">
+          <label for="textArea">
+            MESSAGE
+          </label>
+          <textarea name="textArea" id="textArea" cols="10" rows="3"></textarea>
+          <div class="btn-contact-us my-3">
+            <button type="submit">Contact us</button>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 </footer>
+
+
 <script src="./js/all.js"></script>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </body>
